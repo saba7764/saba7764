@@ -1,0 +1,854 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-image: url( https://craftohtml.themezaa.com/images/demo-it-business-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.all {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+    .list ul {
+        align-items: center;
+        list-style: none;
+        display: flex;
+        gap: 50px;
+        font-size: 17px;
+        color: azure;
+    }
+
+.home {
+    color: rgb(83, 78, 78);
+}
+
+.about:hover {
+    color: rgb(83, 78, 78);
+    transition: all 1s linear;
+}
+
+.button1 {
+    background-color: transparent;
+    block-size: 40px;
+    width: 180px;
+    border-radius: 30px;
+    color: rgb(235, 252, 252);
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    margin-left: 0px;
+}
+
+    .button1:hover {
+        background-color: azure;
+        color: black;
+        transition: all 500ms linear;
+    }
+
+.grow {
+    border: 1px solid black;
+    color: azure;
+    opacity: .5;
+    background-color: black;
+    width: 300px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.main-heading {
+    color: azure;
+    font-size: 40px;
+    line-height: 70px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.para-1 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+    color: rgb(177, 169, 169);
+}
+
+.btn1 {
+    background-image: linear-gradient(to right,rgb(80, 80, 189), rgb(202, 44, 44));
+    block-size: 60px;
+    width: 200px;
+    border-radius: 30px;
+    color: azure;
+    font-size: 15px;
+    border: transparent;
+}
+
+.btn2 {
+    background-color: transparent;
+    block-size: 60px;
+    width: 200px;
+    border-radius: 30px;
+    color: azure;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+}
+
+.buttons2 {
+    margin-top: 20px;
+    margin-left: 40px;
+    row-gap: 20px;
+}
+
+.btn2:hover {
+    background-color: azure;
+    color: black;
+    animation: 3s linear 0s infinite reverse myscale;
+}
+
+@keyframes myscale {
+    50% {
+        transform: scale(0.5, 0.5);
+    }
+}
+
+.btn1:hover {
+    background-image: linear-gradient(to right,rgb(80, 124, 189), rgb(202, 44, 44));
+    color: azure;
+    animation: 3s linear 0s infinite reverse myscale;
+}
+
+.section-2 {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    gap: 80px;
+}
+
+.bulb {
+    display: flex;
+}
+
+.money {
+    display: flex;
+}
+
+.rocket {
+    display: flex;
+}
+
+.hdn {
+    font-size: 20px;
+}
+
+.pr {
+    color: grey;
+    font-size: 20px;
+}
+
+.section-3 {
+    margin-top: 150px;
+    margin-left: 680px;
+}
+
+.creative {
+    background-image: linear-gradient(to right, rgb(204, 220, 241), whitesmoke );
+    block-size: 40px;
+    width: 200px;
+    border: transparent;
+    border-radius: 30px;
+    color: rgb(46, 46, 170);
+}
+
+.background2 {
+    background-color: whitesmoke;
+}
+
+.photo {
+    margin-top: 50px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.photo1 {
+    display: flex;
+    block-size: 400px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.photo2 {
+    block-size: 400px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    z-index: 1;
+    animation-duration: 5s;
+    animation: 5s linear 1s infinite running myslide;
+}
+
+@keyframes myslide {
+    from {
+        margin-top: 20%;
+    }
+
+    to {
+        margin-bottom: 10%;
+    }
+}
+
+.section4 {
+    display: flex;
+}
+
+.capture1 {
+    margin-left: 650px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(25, 25, 51);
+}
+
+.we {
+    margin-left: 650px;
+    padding-top: 30px;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    line-height: 30px;
+}
+
+.percen1 {
+    margin-top: 50px;
+    margin-left: 650px;
+    block-size: 30px;
+    width: 500px;
+    text-align: left;
+    border-radius: 30px;
+    border: transparent;
+    background-image: linear-gradient(to right, rgb(202, 44, 44), whitesmoke );
+    padding: 10px;
+    color: azure;
+    animation-name: rightslide;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.pr98 {
+    text-align: end;
+    margin-top: -10px;
+    color: rgb(202, 44, 44);
+}
+
+.pr85 {
+    text-align: end;
+    margin-top: -10px;
+    color: rgb(93, 89, 203);
+}
+
+.bus {
+    font-size: 12px;
+}
+
+.percen2 {
+    margin-top: 20px;
+    margin-left: 650px;
+    block-size: 30px;
+    width: 400px;
+    text-align: left;
+    border-radius: 30px;
+    border: transparent;
+    background-image: linear-gradient(to right, rgb(93, 89, 203), whitesmoke );
+    padding: 10px;
+    color: azure;
+    animation-name: rightslide;
+    animation-duration: 2s;
+}
+
+@keyframes rightslide {
+    to {
+        translate: 0%;
+    }
+
+    from {
+        translate: 100%;
+    }
+}
+
+.section-5 {
+    width: 70%;
+    display: flex;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.imi1 {
+    margin-left: 60px;
+}
+
+.imi2 {
+    margin-left: 60px;
+}
+
+.imi3 {
+    margin-left: 60px;
+}
+
+.imi4 {
+    margin-left: 60px;
+}
+
+.imi5 {
+    margin-left: 60px;
+}
+
+.section-6 {
+    background-color: rgb(205, 210, 214);
+}
+
+.upperpart {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.understanding {
+    margin-top: 70px;
+    margin-left: 60px;
+    font-size: 50px;
+    color: rgb(25, 25, 51);
+}
+
+.we-strive {
+    margin-top: 80px;
+    font-size: 20px;
+    line-height: 30px;
+    color: grey;
+}
+
+.for1 {
+    block-size: 40px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: transparent;
+    font-size: 20px;
+}
+
+.for2 {
+    block-size: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: transparent;
+    font-size: 20px;
+}
+
+.for-back {
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+.onepicture {
+    margin-top: 100px;
+    display: block;
+    block-size: auto;
+    border: transparent;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 4%;
+    margin-bottom: 80px;
+}
+
+.finance {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 30px;
+    color: black;
+}
+
+.lorem {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+.explore {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.twopicture {
+    margin-top: 100px;
+    display: block;
+    block-size: auto;
+    border: transparent;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 4%;
+    margin-bottom: 80px;
+}
+
+.threepicture {
+    margin-top: 100px;
+    display: block;
+    block-size: auto;
+    border: transparent;
+    width: fit-content;
+    background-color: whitesmoke;
+    border-radius: 4%;
+    margin-bottom: 80px;
+}
+
+.threepics {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.innovation {
+    border-radius: 5%;
+}
+
+.section-7 {
+    margin-top: -50px;
+    background-color: rgb(22, 22, 45);
+}
+
+.clients {
+    padding-top: 90px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(205, 210, 214);
+}
+
+.icons {
+    margin-top: 110px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+}
+
+.publish {
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.iconaa {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-left: transparent;
+    border-top: transparent;
+}
+
+.iconbb {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-top: transparent;
+}
+
+.iconcc {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.mic {
+    font-size: 60px;
+    margin-left: 60px;
+}
+
+.icons23 {
+    margin-top: px;
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    padding-bottom: 80px;
+}
+
+.iconzz {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.iconyy {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+.iconxx {
+    display: block;
+    border: 1px solid silver;
+    width: 200px;
+    height: 200px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+}
+
+.drop {
+    font-size: 60px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-8 {
+    background-color: rgb(33, 30, 52);
+    height: 100px;
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.precious {
+    font-size: 20px;
+    color: azure;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.circle-img {
+    background-color: transparent;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+.studies {
+    margin-top: 180px;
+    font-size: 30px;
+    margin-left: 80px;
+    color: rgb(20, 20, 41);
+    width: 400px;
+}
+
+.highfi {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: large;
+    margin-top: 200px;
+    padding-left: 320px;
+}
+
+    .highfi ul {
+        list-style: none;
+    }
+
+.section-9 {
+    display: flex;
+}
+
+.web {
+    color: grey;
+}
+
+    .web:hover {
+        color: black;
+        text-decoration: underline;
+    }
+
+.jack {
+    text-decoration: underline;
+}
+
+.beauty {
+    display: flex;
+    border-radius: 10%;
+    border-radius: 50px;
+    justify-content: space-evenly;
+}
+
+.oil {
+    border-radius: 10px;
+}
+
+.clothes {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    border-radius: 10%;
+    border-radius: 50px;
+    justify-content: space-evenly;
+}
+
+.boomer {
+    border-radius: 10px;
+}
+
+.main-photo {
+    margin-top: 100px;
+}
+
+.section-11 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://craftohtml.themezaa.com/images/demo-it-business-testimonial-bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 100px;
+    padding-bottom: 150px;
+}
+
+.trusted {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(20, 20, 38);
+}
+
+.aria-live {
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.amazing {
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.leonel {
+    margin-top: 15px;
+    color: rgb(20, 20, 66);
+}
+
+.project-mon {
+    block-size: 200px;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.dropbox {
+    block-size: 200px;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.slack {
+    block-size: 200px;
+    border: 1px solid transparent;
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.contrast {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ram {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.dark-gray {
+    text-align: center;
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+}
+
+.storage1 {
+    color: rgb(31, 31, 72);
+}
+
+.section-12 {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-image: url( https://craftohtml.themezaa.com/images/demo-it-business-08.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 0px;
+    border-radius: 1%;
+}
+
+.something {
+    display: flex;
+    gap: 2px;
+    margin-top: 150px;
+    border: transparent;
+    width: 380px;
+    height: 40px;
+    background-color: black;
+    opacity: .5;
+    border-radius: 30px;
+    color: whitesmoke;
+    margin-left: 380px;
+    padding: 10px;
+}
+
+.outline {
+    font-size: 20px;
+}
+
+.creative-solutions {
+    margin-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 80px;
+}
+
+.in-mind {
+    background-image: linear-gradient(to right,rgb(80, 80, 189), rgb(202, 44, 44));
+    block-size: 60px;
+    width: 300px;
+    border-radius: 30px;
+    color: azure;
+    font-size: 15px;
+    border: transparent;
+    margin-left: 420px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+    .in-mind:hover {
+        background-color: azure;
+        color: black;
+        animation: 3s linear 0s infinite reverse myscale;
+    }
+
+.section-13 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    gap: 10px;
+}
+
+.footer-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-gray {
+    color: grey;
+    margin-top: 10px;
+}
+
+.team-blue {
+    color: rgb(19, 19, 39);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.black {
+    color: black;
+}
+
+.iconic-mail {
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+}
+
+.team-mail {
+    color: grey;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+
+
+.last-part {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.proudly2024 {
+    color: grey;
+    margin-right: 300px;
+}
+
+.themezaa {
+    color: rgb(20, 20, 45);
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: grey;
+    font-size: 15px;
+    padding-left: 200px;
+}
